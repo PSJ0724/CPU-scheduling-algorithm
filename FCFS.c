@@ -6,7 +6,7 @@ int main() {
 	printf("Enter total number of processes(maximum 20):");
 	scanf("%d", &n);
 
-	printf("\nEnter Process Burst Time\n"); //burst ����ð�
+	printf("\nEnter Process Burst Time\n"); 
 	for (i = 0; i < n; i++) {
 		printf("P[%d]:", i + 1);
 		scanf("%d", &bt[i]);
@@ -30,7 +30,7 @@ int main() {
 	}
 	avwt = avwt / i;
 	avtat = avtat / i;
-	printf("\n\nAverage Wating Time:%f", avwt); //��մ��ð�
-	printf("\nAverage Turnaround Time:%f", avtat); //��չ�ȯ�ð�
+	printf("\n\nAverage Wating Time:%f", avwt);
+	printf("\nAverage Turnaround Time:%f", avtat);
 	return 0;
 }
